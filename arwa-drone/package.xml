@@ -66,6 +66,7 @@
   <exec_depend>mapviz_plugins</exec_depend>
   <exec_depend>tile_map</exec_depend>
   <exec_depend>multires_image</exec_depend>
+  <exec_depend>flir_lepton</exec_depend>
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- Other tools can request additional information be placed here -->
