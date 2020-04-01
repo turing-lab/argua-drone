@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="camera_id" default="0" />
+
+  <include file="$(find darknet_ros)/launch/yolo_v3_tiny.launch" />
+  <node name="cv_camera" pkg="cv_camera" type="cv_camera_node">
+    <param name="device_id" value="$(arg camera_id)" />
+  </node>
+</launch>
