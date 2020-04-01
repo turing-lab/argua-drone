@@ -62,7 +62,10 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>visualization_msgs</exec_depend>
   <exec_depend>cv_camera</exec_depend>
-
+  <exec_depend>mapviz</exec_depend>
+  <exec_depend>mapviz_plugins</exec_depend>
+  <exec_depend>tile_map</exec_depend>
+  <exec_depend>multires_image</exec_depend>
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- Other tools can request additional information be placed here -->
