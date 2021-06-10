@@ -1,3 +1,6 @@
 [submodule "darknet_ros"]
 	path = darknet_ros
 	url = https://github.com/turing-lab/darknet_ros.git
+[submodule "flir_one_node"]
+	path = flir_one_node
+	url = https://github.com/aplyer/flir_one_node
